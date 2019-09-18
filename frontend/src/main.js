@@ -7,7 +7,7 @@ import VueI18n from 'vue-i18n'
 import en from './locals/en.json'
 //import { VueStars } from 'vue-stars'
 //import store from '@/utils/store'
-//import router from './router'
+import router from './router'
 import axios from 'axios'
 export const defaultLocale = 'en'
 
@@ -41,5 +41,7 @@ new Vue({
 
 new Vue({
   render: h => h(App),
-  i18n: i18n
+  i18n: i18n,
+  router,
+  components: { App },
 }).$mount("#app");

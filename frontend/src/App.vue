@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to Your Vue.js App" />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from "./pages/Home.vue";
 
 export default {
-  name: "app",
-  components: {
-    Home
-  }
+  name: "App"
 };
 </script>
 
@@ -23,11 +19,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  
 }
-img{
-  padding-top:20px;
-  height:150px;
-  width:150px;
-}
+
 </style>
