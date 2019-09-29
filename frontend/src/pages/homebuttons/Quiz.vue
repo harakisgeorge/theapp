@@ -2,7 +2,7 @@
   <div>
 
      <TopMenu/>
-     <ModulesCanvas/>
+     <ExerciseCanvas/>
   </div>
 </template>
 
@@ -20,18 +20,16 @@
 
 <script>
 import TopMenu from "@/components/TopMenu"
-import ModulesCanvas from "@/components/ModulesCanvas"
+import ExerciseCanvas from "@/components/ExerciseCanvas"
 export default {
   name: 'PaperContent',
   components: {
      TopMenu,
-     ModulesCanvas
+     ExerciseCanvas
   },
   data: () => ({
     amount:0
-  }),
- 
-
+  })
 
 }
 </script>

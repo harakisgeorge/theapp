@@ -2,7 +2,7 @@
   <div>
 
      <TopMenu/>
-     <ModulesCanvas/>
+     <ForumsCanvas/>
   </div>
 </template>
 
@@ -19,19 +19,17 @@
 </style>
 
 <script>
+import ForumsCanvas from "@/components/ForumsCanvas"
 import TopMenu from "@/components/TopMenu"
-import ModulesCanvas from "@/components/ModulesCanvas"
 export default {
-  name: 'PaperContent',
+  name: 'Forums',
   components: {
-     TopMenu,
-     ModulesCanvas
+     ForumsCanvas,
+     TopMenu
   },
   data: () => ({
     amount:0
-  }),
- 
-
+  })
 
 }
 </script>

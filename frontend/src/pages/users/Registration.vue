@@ -118,7 +118,7 @@ export default {
       })
     },
     onCancelClick () {
-      this.$router.push({ path: '/user' })
+      this.$router.push({ path: '/login' })
     },
     validateUser () {
       this.$v.$touch()

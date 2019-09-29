@@ -28,6 +28,7 @@
      "difficultyRequired": "A difficulty is required between 1-5",
      "difficultyBounds": "The difficulty is out of bounds should be between 1-5",
      "assignmentRequired": "An assignment is required",
+     "continueAsGuest": "Continue As Guest",
      "createUser": "Create User",
      "courses": "Courses",
      "course": "Course",

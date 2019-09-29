@@ -20,7 +20,7 @@
 
 <script>
 import TopMenu from "@/components/TopMenu"
-import ModulesCanvas from "@/components/ModulesCanvas"
+import ModulesCanvas from "@/components/ModulesCanvasMaterial"
 export default {
   name: 'PaperContent',
   components: {
@@ -29,8 +29,7 @@ export default {
   },
   data: () => ({
     amount:0
-  }),
- 
+  })
 
 
 }

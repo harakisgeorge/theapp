@@ -10,12 +10,15 @@ import en from './locals/en.json'
 import router from './router'
 import axios from 'axios'
 export const defaultLocale = 'en'
+import VueAxios from './plugins/axios'
 
+Vue.use(VueAxios)
 
 export const languages = {
   en: en
 }
 const messages = Object.assign(languages)
+Vue.use(axios)
 Vue.use(VueMaterial)
 Vue.use(VueI18n)
 //Vue.component('vue-stars', VueStars)
